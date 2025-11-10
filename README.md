@@ -1,73 +1,84 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  Hello, I'm Yunus Habeeb! 👋
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/d-code-h/d-code-h/main/assets/banner.jpg" alt="Profile Banner" />
+</p>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I'm a **Cyber Security Science graduate** 🎓 with **First-Class Honors** and a **MERN stack developer** ⚡️ passionate about building scalable web applications. I love solving complex problems and constantly exploring new technologies, currently focusing on **Next.js** and **React Native**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 What I’m Up To
 
-## Expanding the ESLint configuration
+- 🔭 **Currently working on**: Patient Management System, enhancing user experiences with Next.js.
+- 🌱 **Learning**: Advanced **React Native** for mobile development.
+- 💼 **Aspiring**: Full-stack developer with a focus on Cybersecurity.
+- 🎉 **Hacktoberfest 2024 Participant**: Proud to be part of the open-source community! 💻
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🔥 Skills and Technologies
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+- 💻 Languages: JavaScript, HTML, CSS
+- 🔧 Frameworks: React, Next.js, Node.js, Express.js
+- 🛠️ Tools: Git, React, ClickUp, Figma
+- 📱 Mobile Development: React Native
+- 🔐 Cybersecurity: Network Security, Cisco CyberOps
+- 🌐 Databases: MongoDB, MySQL
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🏆 Achievements
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 🎓 **First-Class Honors** in Cyber Security Science from Federal University of Technology, Minna
+- 💻 **Hacktoberfest 2024 Participant** – Earned my first badge for contributing to open-source projects
+
+   [![An image of @dcodeh's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/dcodeh)](https://holopin.io/@dcodeh)
+
+- 🏅 **Cisco Cybersecurity Scholarship Recipient** – Awarded a scholarship to complete the **Cisco Cybersecurity course** certification, earning 9 certificates including:
+  - **Junior Cybersecurity Analyst Career Path**
+  - **Introduction to Cybersecurity**
+  - **Network Defense**
+  - **Endpoint Security**
+  - **Ethical Hacking** and more
+- 🌟 **Leadership in Tech** – Spearheaded the digital transformation and web presence for a growing church ministry, leading a team of developers and designers
+- 🛡️ **Cyber Security Advocate** – Focused on privacy and security as a core part of my career and projects
+- 📜 **Published Article** – [Development of Hash-Based Multi-Factor Password Generating System, FUOYE Journal of Engineering and Technology](http://journal.engineering.fuoye.edu.ng/index.php/engineer/article/view/1047)
+
+---
+
+## 🚀 Featured Projects
+
+Here are some of the projects I've worked on that showcase my skills and interests:
+
+1. **[LiveDocs 📄💻](https://github.com/d-code-h/live-docs)**
+A real-time collaborative document editing web application built with Next.js, React, and Tailwind CSS. It enables teams to work together efficiently with seamless authentication, rich text editing, and live collaboration.
+
+2. **[Horizon Bank 💳](https://github.com/d-code-h/horizon-bank)**
+A modern web banking platform built with Next.js and React. It allows users to securely manage their bank accounts, track financial data with interactive charts, and perform transactions with integrated services like Dwolla and Plaid.
+
+3. **[Xora – SaaS Landing Page 🚀](https://github.com/d-code-h/xora)**
+A sleek and modern SaaS landing page built with React and Tailwind CSS. This project showcases various features for a fictional SaaS product, including interactive animations, smooth scrolling, and responsive design for a seamless user experience.
+
+4. **[CarePulse 🩺💉](https://github.com/d-code-h/carepulse)**
+A healthcare web application that allows users to schedule and manage their medical appointments. Built with Next.js and React, this platform provides a seamless experience for users to interact with healthcare providers and access appointment details.
+
+5. **[3D Interactive Developer Portfolio 🎮🌐](https://github.com/d-code-h/3d-developer-portfolio)**
+A 3D interactive developer portfolio built with React, Three.js, and React-Spring. The platform features an immersive experience with a 3D model of a computer, offering real-time performance optimizations and a mobile-first design.
+
+---
+
+## 📫 Get in Touch
+
+I'm always open to discussing new projects, opportunities, or even just chatting about tech and cybersecurity. Feel free to reach out to me!
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/d-code-h)
+<!-- - 🌐 [Portfolio](https://d-code-h.github.io) _(Coming Soon!)_ -->
+- ✉️ [Email](mailto:habeebdh1@outlook.com)
+<!-- - 🐦 [Twitter](https://twitter.com/d-code-h) -->
+- 💻 [GitHub](https://github.com/d-code-h)
