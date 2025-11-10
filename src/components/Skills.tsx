@@ -150,8 +150,8 @@ const Skills = () => {
               }}
               className={clsx(
                 'bg-white relative group w-full max-w-sm flex items-center gap-5 p-5 rounded-xl border border-slate-100',
-                'hover:shadow-xl hover:-translate-y-1 transition-transform duration-200',
-                'focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary cursor-pointer'
+                'hover:shadow-xl transition-transform duration-200',
+                'focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-300 cursor-pointer'
               )}
             >
               <div className="shrink-0">

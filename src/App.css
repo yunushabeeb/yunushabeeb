@@ -20,6 +20,7 @@
   --color-gray: #B7C5D3;
   --color-primary-linear: linear-gradient(180deg, #B6CCF5 0.48%, #D5E3F1 100%);
   --drop-shadow-primary: -5px 35px 40px rgba(223, 229, 236, 0.9);
+  --shadow-primary: -5px 35px 40px rgba(223, 229, 236, 0.9);
 
 }
 
