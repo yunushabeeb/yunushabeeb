@@ -1,5 +1,5 @@
 // import images
-import Hero_person from './images/Hero/person.png';
+import Hero_person from './images/Hero/passport.png';
 
 import figma from './images/Skills/figma.png';
 import mongodb from './images/Skills/mongodb.png';
