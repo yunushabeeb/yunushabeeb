@@ -2,12 +2,12 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import type { Swiper as SwiperClass } from 'swiper/types';
 
+
 // import Swiper and modules styles
 import { Pagination, Autoplay, Keyboard, A11y } from 'swiper/modules';
 import { useState, useRef } from 'react';
 import clsx from 'clsx';
 import { content } from '../Content';
-
 
 interface Item {
   img: string;
@@ -35,7 +35,6 @@ const Testimonials = () => {
         <Swiper
           onSwiper={(s) => (swiperRef.current = s)}
           direction="horizontal"
-          loop={true}
           centeredSlides={true}
           spaceBetween={24}
           // responsive slides per view for better layout on each breakpoint
@@ -46,7 +45,10 @@ const Testimonials = () => {
             1280: { slidesPerView: 1.4 },
           }}
           pagination={{ clickable: true }}
-          autoplay={{ delay: 4500, disableOnInteraction: false }}
+          autoplay={{ delay: 4500, disableOnInteraction: false,
+            stopOnLastSlide: false
+
+           }}
           keyboard={{ enabled: true, onlyInViewport: true }}
           a11y={{
             prevSlideMessage: 'Previous testimonial',
@@ -56,6 +58,7 @@ const Testimonials = () => {
           modules={[Pagination, Autoplay, Keyboard, A11y]}
           className="min-h-2 md:max-w-4xl pb-12"
           data-aos="fade-left"
+
         >
           {Testimonials.testimonials_content.map((item: Item, i) => {
             const isActive = i === activeIndex;
