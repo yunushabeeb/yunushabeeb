@@ -78,6 +78,33 @@
   }
 }
 
+/* Ensure AOS fade elements become visible when animated (override accidental hide) */
+[data-aos^=fade][data-aos^=fade] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition-duration: 400ms;
+  transition-timing-function: ease;
+}
+
+/* WebKit scrollbars (Chrome, Safari, Edge) */
+.app-modal::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.app-modal::-webkit-scrollbar-track {
+  background: rgba(15,23,42,0.03);
+  border-radius: 8px;
+}
+.app-modal::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(100,116,139,0.95), rgba(71,85,105,0.9));
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+.app-modal::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(71,85,105,0.95), rgba(55,65,81,0.95));
+}
+
 @utility container {
   margin-inline: auto;
   padding-inline: 4rem;

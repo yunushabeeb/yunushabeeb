@@ -83,7 +83,7 @@ const Services = () => {
         <Modal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
-          className={modalContentClass}
+        className={`${modalContentClass} app-modal`}
           overlayClassName={modalOverlayClass}
           closeTimeoutMS={200}
           shouldFocusAfterRender
