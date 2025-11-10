@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yunushabeeb/yunushabeeb/main/banner.jpg" alt="Profile Banner" />
+  <img src="https://raw.githubusercontent.com/yunushabeeb/yunushabeeb/main/public/banner.png" alt="Profile Banner" />
 </p>
 
 
