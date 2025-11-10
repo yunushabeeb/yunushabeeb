@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/d-code-h/d-code-h/main/assets/banner.jpg" alt="Profile Banner" />
+  <img src="https://raw.githubusercontent.com/yunushabeeb/yunushabeeb/main/banner.jpg" alt="Profile Banner" />
 </p>
 
 
@@ -56,19 +56,19 @@ I'm a **Cyber Security Science graduate** 🎓 with **First-Class Honors** and a
 
 Here are some of the projects I've worked on that showcase my skills and interests:
 
-1. **[LiveDocs 📄💻](https://github.com/d-code-h/live-docs)**
+1. **[LiveDocs 📄💻](https://github.com/yunushabeeb/live-docs)**
 A real-time collaborative document editing web application built with Next.js, React, and Tailwind CSS. It enables teams to work together efficiently with seamless authentication, rich text editing, and live collaboration.
 
-2. **[Horizon Bank 💳](https://github.com/d-code-h/horizon-bank)**
+2. **[Horizon Bank 💳](https://github.com/yunushabeeb/horizon-bank)**
 A modern web banking platform built with Next.js and React. It allows users to securely manage their bank accounts, track financial data with interactive charts, and perform transactions with integrated services like Dwolla and Plaid.
 
-3. **[Xora – SaaS Landing Page 🚀](https://github.com/d-code-h/xora)**
+3. **[Xora – SaaS Landing Page 🚀](https://github.com/yunushabeeb/xora)**
 A sleek and modern SaaS landing page built with React and Tailwind CSS. This project showcases various features for a fictional SaaS product, including interactive animations, smooth scrolling, and responsive design for a seamless user experience.
 
-4. **[CarePulse 🩺💉](https://github.com/d-code-h/carepulse)**
+4. **[CarePulse 🩺💉](https://github.com/yunushabeeb/carepulse)**
 A healthcare web application that allows users to schedule and manage their medical appointments. Built with Next.js and React, this platform provides a seamless experience for users to interact with healthcare providers and access appointment details.
 
-5. **[3D Interactive Developer Portfolio 🎮🌐](https://github.com/d-code-h/3d-developer-portfolio)**
+5. **[3D Interactive Developer Portfolio 🎮🌐](https://github.com/yunushabeeb/3d-developer-portfolio)**
 A 3D interactive developer portfolio built with React, Three.js, and React-Spring. The platform features an immersive experience with a 3D model of a computer, offering real-time performance optimizations and a mobile-first design.
 
 ---
@@ -77,8 +77,8 @@ A 3D interactive developer portfolio built with React, Three.js, and React-Sprin
 
 I'm always open to discussing new projects, opportunities, or even just chatting about tech and cybersecurity. Feel free to reach out to me!
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/d-code-h)
-<!-- - 🌐 [Portfolio](https://d-code-h.github.io) _(Coming Soon!)_ -->
-- ✉️ [Email](mailto:habeebdh1@outlook.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/yunushabeeb)
+- 🌐 [Portfolio](https://www.yunushabeeb.me)
+- ✉️ [Email](mailto:habeebdh1@gmail.com)
 <!-- - 🐦 [Twitter](https://twitter.com/d-code-h) -->
-- 💻 [GitHub](https://github.com/d-code-h)
+- 💻 [GitHub](https://github.com/yunushabeeb)
