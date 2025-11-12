@@ -279,7 +279,8 @@ export const content = {
     title: 'Latest Projects',
     subtitle: 'Selected work',
     image: person_project,
-    nav: ['All', 'Web', 'UX', 'Mobile'],
+    nav: ['All', 'Web', 'Mobile'],
+    // nav: ['All', 'Web', 'UX', 'Mobile'],
     project_content: [
       {
         title: 'University LMS',
