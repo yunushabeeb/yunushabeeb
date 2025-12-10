@@ -117,10 +117,10 @@ export const content = {
     LastName: 'HABEEB',
     btnText: 'View Resume',
     image: Hero_person,
-    resume: '/Yunus_Habeeb_Frontend_Developer.pdf',
+    resume: '/Yunus_Habeeb_Senior_FullStack_Developer_Resume.pdf',
     hero_content: [
       {
-        count: '4+',
+        count: '5+',
         text: 'Years of professional experience',
       },
       {
