@@ -120,7 +120,7 @@ export const content = {
     resume: '/Yunus_Habeeb_Senior_FullStack_Developer_Resume.pdf',
     hero_content: [
       {
-        count: '5+',
+        count: '6+',
         text: 'Years of professional experience',
       },
       {
