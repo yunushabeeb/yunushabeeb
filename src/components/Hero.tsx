@@ -12,7 +12,7 @@ const Hero = () => {
           data-aos-delay="1200"
           className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 gradient-primary bottom-0 -z-10"
         >
-          <h1 className="rotate-90 text-2xl md:text-6xl absolute top-24 -right-8 md:top-[40%] md:right-[-34%] text-[#EAF2FA]">
+          <h1 className="absolute right-2 top-1/2 hidden translate-x-[calc(50%-1.25rem)] -translate-y-1/2 rotate-90 whitespace-nowrap text-[#EAF2FA] md:block md:text-4xl xl:text-5xl">
             {hero.firstName}{' '}
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
@@ -20,6 +20,10 @@ const Hero = () => {
 
         {/* first column: title, resume button, and stats */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
+          <h1 className="md:hidden mb-4 text-center font-Poppins text-base font-semibold tracking-[0.14em]">
+            {hero.firstName}{' '}
+            <span>{hero.LastName}</span>
+          </h1>
           <h2 className="max-w-sm text-center mb-5">{hero.title}</h2>
           <br />
           <div className="flex justify-end">

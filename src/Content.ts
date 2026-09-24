@@ -114,10 +114,10 @@ export const content = {
   hero: {
     title: 'MERN & Next.js Developer',
     firstName: 'YUNUS',
-    LastName: 'HABEEB',
+    LastName: 'HABEEB HABEEB',
     btnText: 'View Resume',
     image: Hero_person,
-    resume: '/Yunus_Habeeb_Senior_Full_Stack_Developer_Resume.pdf',
+    resume: '/Yunus_Habeeb_Resume.pdf',
     hero_content: [
       {
         count: '6+',
@@ -451,6 +451,6 @@ export const content = {
     ],
   },
   Footer: {
-    text: '© Yunus Habeeb • All rights reserved.',
+    text: '© Yunus Habeeb Habeeb • All rights reserved.',
   },
 };

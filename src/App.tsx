@@ -37,7 +37,7 @@ const App = () => {
               <span className="inline-block bg-dark_primary text-white font-semibold px-3 py-1 rounded-md">YH</span>
             </div>
             <div>
-              <h6 className="font-semibold dark:text-white">YUNUS HABEEB</h6>
+              <h6 className="font-semibold dark:text-white">YUNUS HABEEB HABEEB</h6>
               <p className="text-sm text-slate-500 dark:text-slate-400">Full‑Stack Developer — Frontend‑Focused</p>
             </div>
           </div>
@@ -49,7 +49,7 @@ const App = () => {
           </nav>
 
           <div className="flex items-center gap-4">
-            <p className="text-sm text-slate-500 dark:text-slate-400">&copy; {new Date().getFullYear()} Yunus Habeeb</p>
+            <p className="text-sm text-slate-500 dark:text-slate-400">&copy; {new Date().getFullYear()} Yunus Habeeb Habeeb</p>
 
             <div className="flex items-center gap-2">
               <a
