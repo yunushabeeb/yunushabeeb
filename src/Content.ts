@@ -7,12 +7,15 @@ import next from './images/Skills/nextjs.png';
 import reactjs from './images/Skills/react.png';
 import typescript from './images/Skills/typescript.png';
 import nodejs from './images/Skills/node.png';
-import cybersecurity from './images/Skills/cyber-security.png';
-import testing from './images/Skills/testing.png';
+import nestjs from './images/Skills/nestjs.svg';
+import postgresql from './images/Skills/postgresql.svg';
+import docker from './images/Skills/docker.svg';
+import cybersecurity from './images/Skills/cybersecurity.svg';
+import testing from './images/Skills/testing.svg';
 
-import services_logo1 from './images/Services/logo1.png';
-import services_logo2 from './images/Services/logo2.png';
-import services_logo3 from './images/Services/logo3.png';
+import services_logo1 from './images/Services/web.svg';
+import services_logo2 from './images/Services/security.svg';
+import services_logo3 from './images/Services/mobile.svg';
 
 import project1 from './images/Projects/live-docs.png';
 import project2 from './images/Projects/horizon.png';
@@ -149,10 +152,10 @@ export const content = {
         para: 'Robust testing practices to ensure stable, maintainable applications.',
         logo: testing,
         skills: [
-          'Unit & integration testing with Jest.',
+          'Unit and integration testing with Jest.',
           'Component testing with React Testing Library.',
-          'End-to-end testing basics with Playwright or Cypress.',
-          'Test coverage, mocking and CI integration (GitHub Actions).',
+          'End-to-end coverage with Playwright and Cypress.',
+          'Test coverage, mocking, and CI integration with GitHub Actions.',
         ],
       },
       {
@@ -194,27 +197,56 @@ export const content = {
           'RESTful API design and async architectures.',
           'Authentication, validation, and secure endpoints.',
           'Integrations with databases and third-party services.',
-          // 'Backend testing with Jest and Supertest; migrations and query tooling (Prisma, Knex).',
         ],
       },
       {
-        name: 'Databases (MongoDB & PostgreSQL)',
-        para: 'NoSQL and relational database design, operations and integrations.',
+        name: 'NestJS',
+        para: 'Modular backend services with clear boundaries.',
+        logo: nestjs,
+        skills: [
+          'Controller, service, and repository layers, with business logic kept out of controllers.',
+          'JWT authentication and role-based access on production APIs.',
+          'Typed modules paired with PostgreSQL and a Dockerized local stack.',
+        ],
+      },
+      {
+        name: 'PostgreSQL',
+        para: 'Relational schema design, migrations, and transactional data.',
+        logo: postgresql,
+        skills: [
+          'Normalized schemas, constraints, and migrations that keep records consistent.',
+          'Indexes, query plans, and transactions around payments and writes.',
+          'Access through Drizzle and Prisma from Node.js and Next.js services.',
+        ],
+      },
+      {
+        name: 'Docker',
+        para: 'Repeatable setups for services and their databases.',
+        logo: docker,
+        skills: [
+          'Images for Node.js services and multi-container Compose stacks.',
+          'App, database, migrations, and health checks brought up together.',
+          'A local setup other engineers can run without a custom machine.',
+        ],
+      },
+      {
+        name: 'MongoDB',
+        para: 'Document data modeling, aggregations, and query performance.',
         logo: mongodb,
         skills: [
-          'Schema design for performance and scalability (MongoDB) and normalized schemas with migrations (PostgreSQL).',
-          'Aggregation pipelines, indexing strategies and query optimization.',
-          'Integration with Node.js, ORMs/query builders (Drizzle, Prisma) and serverless platforms.',
+          'Schema design for collections that stay queryable as they grow.',
+          'Aggregation pipelines, indexes, and query optimization.',
+          'Integration with Node.js services and serverless platforms.',
         ],
       },
       {
         name: 'Cybersecurity',
-        para: 'Fundamentals of secure development and hardening.',
+        para: 'Secure development and hardening of web applications.',
         logo: cybersecurity,
         skills: [
-          'Secure-by-design mindset and best practices.',
-          'OWASP-aware development and input validation.',
-          'Basic threat modeling and secure configuration.',
+          'Secure-by-design choices in auth, input handling, and configuration.',
+          'OWASP-aware review and practical fixes during feature work.',
+          'Threat modeling that shapes how endpoints and data access are built.',
         ],
       },
       {
@@ -449,8 +481,5 @@ export const content = {
         link: 'https://wa.me/8136876564',
       },
     ],
-  },
-  Footer: {
-    text: '© Yunus Habeeb Habeeb • All rights reserved.',
   },
 };

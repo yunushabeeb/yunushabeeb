@@ -160,14 +160,12 @@ const Skills = () => {
                   alt={skill.name}
                   className={clsx(
                     'object-contain transition-transform duration-200',
-                    (skill?.name === 'Next.js' || skill?.name === 'Cybersecurity') ? 'w-16 h-16' : 'w-12 h-12',
-                    skill?.name === 'Cybersecurity' && "-ml-2"
+                    skill?.name === 'Next.js' ? 'w-16 h-16' : 'w-12 h-12'
                   )}
                 />
               </div>
-              <div className={clsx('flex-1', skill?.name === 'Cybersecurity' && '-ml-2')}>
-                <h6 className="font-semibold">{skill.name.split(' ')[0]}</h6>
-                {/* <h6 className="hidden md:block font-semibold">{skill.name}</h6> */}
+              <div className="flex-1">
+                <h6 className="font-semibold">{skill.name}</h6>
                 <p className="italic text-sm text-slate-500">{skill.para}</p>
               </div>
 

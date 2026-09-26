@@ -90,16 +90,6 @@ const App = () => {
             </div>
           </div>
         </div>
-
-        <div className="border-t border-slate-100 dark:border-slate-800 mt-6">
-          <div className="md:container px-5 py-4 text-center text-xs ">
-            <span className='text-slate-400 dark:text-white'>
-              Icons provided by
-              <a className="ml-1 underline" href="https://www.flaticon.com" target="_blank" rel="noopener noreferrer">Flaticon</a>
-            </span>
-            <span className="block md:inline-block md:ml-4 text-slate-400 dark:text-white">Built with ❤️ and Tailwind CSS • All rights reserved.</span>
-          </div>
-        </div>
       </footer>
     </div>
   );
