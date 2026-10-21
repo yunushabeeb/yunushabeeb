@@ -54,39 +54,39 @@ const {
   restate,
 } = {
   bookwise: {
-    source: 'https://github.com/d-code-h/bookwise',
+    source: 'https://github.com/yunushabeeb/bookwise',
     live: 'https://www.bookwise.yunushabeeb.me',
   },
   storeit: {
-    source: 'https://github.com/d-code-h/storeit',
+    source: 'https://github.com/yunushabeeb/storeit',
     live: 'https://www.storeit.yunushabeeb.me',
   },
   carepulse: {
-    source: 'https://github.com/d-code-h/carepulse',
+    source: 'https://github.com/yunushabeeb/carepulse',
     live: 'https://www.carepulse.yunushabeeb.me',
   },
   horizon: {
-    source: 'https://github.com/d-code-h/horizon-bank',
+    source: 'https://github.com/yunushabeeb/horizon-bank',
     live: 'https://www.horizon.yunushabeeb.me',
   },
   aora: {
-    source: 'https://github.com/d-code-h/aora',
+    source: 'https://github.com/yunushabeeb/aora',
     live: 'https://drive.google.com/file/d/16vUwOoiz7CdWT7AyB6ly-aqGHkaKDjXW/view?usp=sharing',
   },
   developer: {
-    source: 'https://github.com/d-code-h/3d-developer-portfolio',
+    source: 'https://github.com/yunushabeeb/3d-developer-portfolio',
     live: 'https://www.3dportfolio.yunushabeeb.me',
   },
   livedocs: {
-    source: 'https://github.com/d-code-h/live-docs',
+    source: 'https://github.com/yunushabeeb/live-docs',
     live: 'https://www.livedocs.yunushabeeb.me',
   },
   xora: {
-    source: 'https://github.com/d-code-h/xora',
+    source: 'https://github.com/yunushabeeb/xora',
     live: 'https://www.xora.yunushabeeb.me',
   },
   restate: {
-    source: 'https://github.com/d-code-h/real-scout',
+    source: 'https://github.com/yunushabeeb/real-scout',
     live: 'https://drive.google.com/file/d/1x_xMw_PoPhOhv0H78OQi8PSUozqzJ5u8/view?usp=drive_link',
   },
 };
@@ -336,13 +336,14 @@ export const content = {
         live: storeit.live,
         code: storeit.source,
         category: 'web',
-        desc: 'A modern file storage and sharing app with intuitive dashboard, secure sharing and advanced filtering. Focused on usability and robust file handling.',
+        desc: 'Private file storage with email OTP sign-in, presigned uploads to object storage, per-user quotas, and ClamAV scanning before a file is listed. Postgres owns the catalog; Redis holds short-lived auth challenges; the bucket stays private behind signed URLs.',
         techs: [
           'Next.js',
-          'React',
-          'Appwrite',
           'TypeScript',
-          'Tailwind CSS',
+          'PostgreSQL',
+          'Redis',
+          'Cloudflare R2',
+          'ClamAV',
         ],
       },
       {
